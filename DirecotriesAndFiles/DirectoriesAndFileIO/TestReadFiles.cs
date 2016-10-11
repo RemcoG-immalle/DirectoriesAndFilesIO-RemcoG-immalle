@@ -98,7 +98,7 @@ namespace DirectoriesAndFileIO
 
             Assert.AreEqual(fileAContents.Length, r);
             Assert.AreEqual(fileAContents, txt);
-
+            
             stream.Close();
         }
 
